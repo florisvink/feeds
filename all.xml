@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://florisvink.github.io/feeds/all.xml</id>
+    <title>Combined feed</title>
+    <updated>2021-10-22T15:37:00.322Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <entry>
+        <title type="html"><![CDATA[v3.5.3 (FingerprintJS Changelogs)]]></title>
+        <id>https://dev.fingerprintjs.com/changelog/3-5-3</id>
+        <link href="https://dev.fingerprintjs.com/changelog/3-5-3"/>
+        <updated>2021-10-22T15:36:59.538Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Improve the tree-shaking capability</li>
+<li>Confidence score calculations moved to server for increased accuracy (Pro version)</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v3.5.2 (FingerprintJS Changelogs)]]></title>
+        <id>https://dev.fingerprintjs.com/changelog/3-5-2</id>
+        <link href="https://dev.fingerprintjs.com/changelog/3-5-2"/>
+        <updated>2021-10-22T15:36:59.539Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Improve the performance slightly</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v3.5.1 (FingerprintJS Changelogs)]]></title>
+        <id>https://dev.fingerprintjs.com/changelog/3-5-1</id>
+        <link href="https://dev.fingerprintjs.com/changelog/3-5-1"/>
+        <updated>2021-10-22T15:36:59.544Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Improve identification time for visitors who use an ad blocker or an M1 Mac</li>
+<li>Improve identification accuracy</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v3.5.0 (FingerprintJS Changelogs)]]></title>
+        <id>https://dev.fingerprintjs.com/changelog/3-5-0</id>
+        <link href="https://dev.fingerprintjs.com/changelog/3-5-0"/>
+        <updated>2021-10-22T15:36:59.544Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Add a new result field: confidence score. The confidence score field tells how much the agent is sure about the visitor identifier. See <a target="_self" href="/docs/js-agent#extendedresult">the API reference</a> for more details.</li>
+<li>Fix an error that occurs in Firefox Add-ons</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v3.4.0 (FingerprintJS Changelogs)]]></title>
+        <id>https://dev.fingerprintjs.com/changelog/3-4-0</id>
+        <link href="https://dev.fingerprintjs.com/changelog/3-4-0"/>
+        <updated>2021-10-22T15:36:59.545Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Makes <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">get</span></code> run much faster when some time passes between calling <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">load()</span></code> and <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">get()</span></code>. See the <a target="_self" href="/docs/js-agent-preloading">JavaScript agent preloading guide</a> to learn how to leverage it.</li>
+<li>Added an error constant for bad server response format: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">FingerprintJS.ERROR_BAD_RESPONSE_FORMAT</span></code>. The error can be caused by wrong endpoint.</li>
+<li>The <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">disableTls</span></code> option is moved from the <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">get</span></code> options to the <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">load</span></code> options. It still works when set within <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">get</span></code> options for compatibility, but doesn't actually disable the TLS request. So we recommend updating your code if you use <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">disableTls</span></code>.</li>
+<li>fix: JS agent may never complete getting the visitor identifier when the page is in background.</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v3.3.3 (FingerprintJS Changelogs)]]></title>
+        <id>https://dev.fingerprintjs.com/changelog/3-3-3</id>
+        <link href="https://dev.fingerprintjs.com/changelog/3-3-3"/>
+        <updated>2021-10-22T15:36:59.547Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fix client timeouts in WeChat built-in browser on iOS 13</li>
+<li>Increase the accuracy of agent when the page runs in background</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v3.3.2 (FingerprintJS Changelogs)]]></title>
+        <id>https://dev.fingerprintjs.com/changelog/3-3-2</id>
+        <link href="https://dev.fingerprintjs.com/changelog/3-3-2"/>
+        <updated>2021-10-22T15:36:59.549Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Fix "Client timeout" errors that happen in bots that run <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">setTimeout</span></code> too quickly</li>
+<li>Fix console WebGL warnings in IE 11</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v3.3.1 (FingerprintJS Changelogs)]]></title>
+        <id>https://dev.fingerprintjs.com/changelog/3-3-1</id>
+        <link href="https://dev.fingerprintjs.com/changelog/3-3-1"/>
+        <updated>2021-10-22T15:36:59.550Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Incognito detection accuracy improvement</li>
+<li>TypeScript compatibility improvement</li>
+<li>Fix an error in Android 5.1 Browser: Failed to parse the response</li>
+<li>Fix client timeouts in iOS WeChat built-in browser</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v3.3.0 (FingerprintJS Changelogs)]]></title>
+        <id>https://dev.fingerprintjs.com/changelog/3-3-0</id>
+        <link href="https://dev.fingerprintjs.com/changelog/3-3-0"/>
+        <updated>2021-10-22T15:36:59.551Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Many new identification methods under the hood</li>
+<li>JS agent retries visitor identification request in case of error</li>
+<li>A new billing model. Identifications are billed per a unique visitor instead of a request.</li>
+<li>New <a target="_self" href="/docs/js-agent#error-handling">expected JS agent errors</a>: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">FingerprintJS.ERROR_WRONG_REGION</span></code>, <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">FingerprintJS.ERROR_SUBSCRIPTION_NOT_ACTIVE</span></code></li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v3.2.6 (FingerprintJS Changelogs)]]></title>
+        <id>https://dev.fingerprintjs.com/changelog/3-2-6</id>
+        <link href="https://dev.fingerprintjs.com/changelog/3-2-6"/>
+        <updated>2021-10-22T15:36:59.553Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>fix: Remote monitoring doesn't work in Android Browser 4.1</li>
+<li>fix: JS agent script encoding can change the canvas fingerprint, that can reduce accuracy in rare cases</li>
+<li>Add internal request encryption</li>
+<li>Improve the fingerprinting performance</li>
+</ul>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[undefined (FingerprintJS Changelogs)]]></title>
+        <id>https://dev.fingerprintjs.com/changelog?page=2</id>
+        <link href="https://dev.fingerprintjs.com/changelog?page=2"/>
+        <updated>2021-10-22T15:36:59.068Z</updated>
+        <content type="html"><![CDATA[<nav aria-label="Pagination" class="Pagination1KE9HXCXYd0E rm-Pagination"><span class="Pagination-metaW9Wis_8kZD2T">1 of 3</span><a aria-current="page" class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4 active" aria-label="Next Page" href="/changelog?page=2"><div class="Pagination-text3yhjKs84FCa6 Pagination-text_right3I2htOlt_CfS"></div><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-right2"></span></a></nav>]]></content>
+    </entry>
+</feed>

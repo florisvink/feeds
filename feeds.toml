@@ -1,6 +1,0 @@
-[fingerprintjs]
-title = "FingerprintJS Changelogs"
-url = "https://dev.fingerprintjs.com/changelog"
-entrySelector = ".rm-ContainerNarrow > div"
-titleSelector = "h1"
-linkSelector = "a"

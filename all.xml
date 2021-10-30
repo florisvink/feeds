@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://florisvink.github.io/feeds/all.xml</id>
     <title>Combined feed</title>
-    <updated>2021-10-29T17:39:33.621Z</updated>
+    <updated>2021-10-30T05:33:38.875Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <entry>
         <title type="html"><![CDATA[v3.5.3 (FingerprintJS Changelogs)]]></title>
@@ -116,6 +116,6 @@
         <id>https://dev.fingerprintjs.com/changelog?page=2</id>
         <link href="https://dev.fingerprintjs.com/changelog?page=2"/>
         <updated>2021-10-22T15:36:59.068Z</updated>
-        <content type="html"><![CDATA[<nav aria-label="Pagination" class="Pagination1KE9HXCXYd0E rm-Pagination"><span class="Pagination-metaW9Wis_8kZD2T">1 of 3</span><a aria-current="page" class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4 active" aria-label="Next Page" href="/changelog?page=2" target="_self"><div class="Pagination-text3yhjKs84FCa6 Pagination-text_right3I2htOlt_CfS"></div><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-right2"></span></a></nav>]]></content>
+        <content type="html"><![CDATA[<nav aria-label="Pagination" class="Pagination1KE9HXCXYd0E rm-Pagination"><span class="Pagination-metaW9Wis_8kZD2T">1 of 3</span><a aria-current="page" class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4 active" aria-label="Next Page" href="/changelog?page=2"><div class="Pagination-text3yhjKs84FCa6 Pagination-text_right3I2htOlt_CfS"></div><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-right2"></span></a></nav>]]></content>
     </entry>
 </feed>

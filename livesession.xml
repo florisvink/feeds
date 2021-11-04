@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://developers.livesession.io/getting-started/changelog/</id>
+    <title>LiveSession Changelogs</title>
+    <updated>2021-11-04T19:56:55.845Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <icon>https://emails.livesession.io/logo_favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[v1.4.0 (2021.09.28)]]></title>
+        <id>https://developers.livesession.io/getting-started/changelog/#v140-20210928</id>
+        <link href="https://developers.livesession.io/getting-started/changelog/#v140-20210928"/>
+        <updated>2021-11-04T19:56:50.283Z</updated>
+        <content type="html"><![CDATA[<a href="#v140-20210928" class="css-1r0pe6c">v1.4.0 (<strong class="css-1vg6q84">2021.09.28</strong>)</a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v1.3.0 (2021.05.06)]]></title>
+        <id>https://developers.livesession.io/getting-started/changelog/#v130-20210506</id>
+        <link href="https://developers.livesession.io/getting-started/changelog/#v130-20210506"/>
+        <updated>2021-11-04T19:56:50.290Z</updated>
+        <content type="html"><![CDATA[<a href="#v130-20210506" class="css-1r0pe6c">v1.3.0 (<strong class="css-1vg6q84">2021.05.06</strong>)</a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v1.2 (2020.12.09)]]></title>
+        <id>https://developers.livesession.io/getting-started/changelog/#v12-20201209</id>
+        <link href="https://developers.livesession.io/getting-started/changelog/#v12-20201209"/>
+        <updated>2021-11-04T19:56:50.294Z</updated>
+        <content type="html"><![CDATA[<a href="#v12-20201209" class="css-1r0pe6c">v1.2 (<strong class="css-1vg6q84">2020.12.09</strong>)</a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v1.1 (2019.04.05)]]></title>
+        <id>https://developers.livesession.io/getting-started/changelog/#v11-20190405</id>
+        <link href="https://developers.livesession.io/getting-started/changelog/#v11-20190405"/>
+        <updated>2021-11-04T19:56:50.298Z</updated>
+        <content type="html"><![CDATA[<a href="#v11-20190405" class="css-1r0pe6c">v1.1 (<strong class="css-1vg6q84">2019.04.05</strong>)</a>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v1.0 (2019.01.01)]]></title>
+        <id>https://developers.livesession.io/getting-started/changelog/#v10-20190101</id>
+        <link href="https://developers.livesession.io/getting-started/changelog/#v10-20190101"/>
+        <updated>2021-11-04T19:56:50.298Z</updated>
+        <content type="html"><![CDATA[<a href="#v10-20190101" class="css-1r0pe6c">v1.0 (<strong class="css-1vg6q84">2019.01.01</strong>)</a>]]></content>
+    </entry>
+</feed>

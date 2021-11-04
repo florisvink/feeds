@@ -1,3 +1,5 @@
+#https://www.w3schools.com/cssref/css_selectors.asp
+
 [fingerprintjs]
 title = "FingerprintJS Changelogs"
 url = "https://dev.fingerprintjs.com/changelog"
@@ -5,3 +7,26 @@ entrySelector = ".rm-ContainerNarrow > div"
 titleSelector = "h1"
 linkSelector = "a"
 contentSelector = "section"
+
+[firefoo]
+title = "Firefoo Changelogs"
+url = "https://firefoo.app/docs/release-notes"
+entrySelector = "main div.ant-typography"
+titleSelector = "h4"
+linkSelector = "a"
+contentSelector = "ul"
+
+[livesession]
+title = "LiveSession Changelogs"
+url = "https://developers.livesession.io/getting-started/changelog/"
+entrySelector = "[data-testid=main-container] h3"
+titleSelector = "a"
+linkSelector = "a"
+
+[whatsize]
+title = "WhatSize Changelogs"
+url = "https://www.whatsizemac.com/release-notes/"
+entrySelector = "#page-content div"
+titleSelector = "h3"
+contentSelector = "ul"
+linkSelector = "a"

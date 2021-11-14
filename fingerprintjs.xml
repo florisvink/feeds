@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.fingerprintjs.com/changelog</id>
     <title>FingerprintJS Changelogs</title>
-    <updated>2021-11-13T17:40:14.467Z</updated>
+    <updated>2021-11-14T05:35:29.642Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://dev.fingerprintjs.com/favicon.ico</icon>
     <entry>
@@ -50,9 +50,9 @@
         <link href="https://dev.fingerprintjs.com/changelog/3-4-0"/>
         <updated>2021-10-22T15:36:59.545Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>Makes <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>get</code> run much faster when some time passes between calling <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>load()</code> and <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>get()</code>. See the <a target="_self" href="/docs/js-agent-preloading">JavaScript agent preloading guide</a> to learn how to leverage it.</li>
-<li>Added an error constant for bad server response format: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>FingerprintJS.ERROR_BAD_RESPONSE_FORMAT</code>. The error can be caused by wrong endpoint.</li>
-<li>The <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>disableTls</code> option is moved from the <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>get</code> options to the <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>load</code> options. It still works when set within <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>get</code> options for compatibility, but doesn't actually disable the TLS request. So we recommend updating your code if you use <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>disableTls</code>.</li>
+<li>Makes <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">get</span></code> run much faster when some time passes between calling <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">load()</span></code> and <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">get()</span></code>. See the <a target="_self" href="/docs/js-agent-preloading">JavaScript agent preloading guide</a> to learn how to leverage it.</li>
+<li>Added an error constant for bad server response format: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">FingerprintJS.ERROR_BAD_RESPONSE_FORMAT</span></code>. The error can be caused by wrong endpoint.</li>
+<li>The <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">disableTls</span></code> option is moved from the <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">get</span></code> options to the <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">load</span></code> options. It still works when set within <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">get</span></code> options for compatibility, but doesn't actually disable the TLS request. So we recommend updating your code if you use <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">disableTls</span></code>.</li>
 <li>fix: JS agent may never complete getting the visitor identifier when the page is in background.</li>
 </ul>]]></content>
     </entry>
@@ -72,7 +72,7 @@
         <link href="https://dev.fingerprintjs.com/changelog/3-3-2"/>
         <updated>2021-10-22T15:36:59.549Z</updated>
         <content type="html"><![CDATA[<ul>
-<li>Fix "Client timeout" errors that happen in bots that run <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>setTimeout</code> too quickly</li>
+<li>Fix "Client timeout" errors that happen in bots that run <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">setTimeout</span></code> too quickly</li>
 <li>Fix console WebGL warnings in IE 11</li>
 </ul>]]></content>
     </entry>
@@ -97,7 +97,7 @@
 <li>Many new identification methods under the hood</li>
 <li>JS agent retries visitor identification request in case of error</li>
 <li>A new billing model. Identifications are billed per a unique visitor instead of a request.</li>
-<li>New <a target="_self" href="/docs/js-agent#error-handling">expected JS agent errors</a>: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>FingerprintJS.ERROR_WRONG_REGION</code>, <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>FingerprintJS.ERROR_SUBSCRIPTION_NOT_ACTIVE</code></li>
+<li>New <a target="_self" href="/docs/js-agent#error-handling">expected JS agent errors</a>: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">FingerprintJS.ERROR_WRONG_REGION</span></code>, <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">FingerprintJS.ERROR_SUBSCRIPTION_NOT_ACTIVE</span></code></li>
 </ul>]]></content>
     </entry>
     <entry>

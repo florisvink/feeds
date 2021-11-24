@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.fingerprintjs.com/changelog</id>
     <title>FingerprintJS Changelogs</title>
-    <updated>2021-11-23T17:41:44.478Z</updated>
+    <updated>2021-11-24T05:37:18.231Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://dev.fingerprintjs.com/favicon.ico</icon>
     <entry>
@@ -117,6 +117,6 @@
         <id>https://dev.fingerprintjs.com/changelog?page=2</id>
         <link href="https://dev.fingerprintjs.com/changelog?page=2"/>
         <updated>2021-10-22T15:36:59.068Z</updated>
-        <content type="html"><![CDATA[<nav aria-label="Pagination" class="Pagination1KE9HXCXYd0E rm-Pagination"><span class="Pagination-metaW9Wis_8kZD2T">1 of 3</span><a aria-current="page" class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4 active" aria-label="Next Page" href="/changelog?page=2" target="_self"><div class="Pagination-text3yhjKs84FCa6 Pagination-text_right3I2htOlt_CfS"></div><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-right2"></span></a></nav>]]></content>
+        <content type="html"><![CDATA[<nav aria-label="Pagination" class="Pagination1KE9HXCXYd0E rm-Pagination"><span class="Pagination-metaW9Wis_8kZD2T">1 of 3</span><a aria-current="page" class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4 active" aria-label="Next Page" href="/changelog?page=2"><div class="Pagination-text3yhjKs84FCa6 Pagination-text_right3I2htOlt_CfS"></div><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-right2"></span></a></nav>]]></content>
     </entry>
 </feed>

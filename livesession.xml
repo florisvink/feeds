@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://developers.livesession.io/getting-started/changelog/</id>
     <title>LiveSession Changelogs</title>
-    <updated>2021-11-24T17:42:28.388Z</updated>
+    <updated>2021-11-26T05:34:48.507Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://emails.livesession.io/logo_favicon.png</icon>
     <entry>
-        <title type="html"><![CDATA[v1.4.0 (2021.09.28)]]></title>
+        <title type="html"><![CDATA[v1.4.0 (.css-1vg6q84{font-weight:700;}2021.09.28)]]></title>
         <id>https://developers.livesession.io/getting-started/changelog/#v140-20210928</id>
         <link href="https://developers.livesession.io/getting-started/changelog/#v140-20210928"/>
         <updated>2021-11-04T19:56:50.283Z</updated>

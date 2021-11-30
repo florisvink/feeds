@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.whatsizemac.com/release-notes/</id>
     <title>WhatSize Changelogs</title>
-    <updated>2021-11-29T05:35:25.442Z</updated>
+    <updated>2021-11-30T05:34:13.642Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://www.whatsizemac.com/release-notes/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Version 7.6.5  :  Monday August 16]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.627Z</updated>
+        <updated>2021-11-30T05:34:12.880Z</updated>
         <content type="html"><![CDATA[<li>Fixing TimeMachine support for macOS Big Sur</li>
 <li>Fixing Swift library linking issue that affects macOS systems older than 10.14</li>
 <li>Maintenance Fixes</li>]]></content>
@@ -18,7 +18,7 @@
         <title type="html"><![CDATA[Version 7.6.4  :  Monday November 30]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.627Z</updated>
+        <updated>2021-11-30T05:34:12.886Z</updated>
         <content type="html"><![CDATA[<li>Adding support for macOS Big Sur</li>
 <li>Addressed a rare issue that would cause an infinite loop on startup</li>
 <li>Addressed issue related to a mounted volume with missing volume UUID</li>
@@ -28,7 +28,7 @@
         <title type="html"><![CDATA[Version 7.4.4  :  Monday August 10]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.627Z</updated>
+        <updated>2021-11-30T05:34:12.887Z</updated>
         <content type="html"><![CDATA[<li>When measuring a parent folder, children that are present on the SideBar are automatically updated</li>
 <li>Addressed a small issue when handling the Request Activation Reset</li>
 <li>Added 'Empty Trash' menu item to empty the trash using Finder</li>
@@ -38,14 +38,14 @@
         <title type="html"><![CDATA[Version 7.4.3  :  Monday June 8, 2020]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.628Z</updated>
+        <updated>2021-11-30T05:34:12.888Z</updated>
         <content type="html"><![CDATA[<li>Added support for managing local TimeMachine/APFS snapshots. These invisible files can fill up your disk. This feature is available on 10.15 and newer</li>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Version 7.4.1  :  Monday April 6, 2020]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.629Z</updated>
+        <updated>2021-11-30T05:34:12.889Z</updated>
         <content type="html"><![CDATA[<li>Implemented Export As TSV, allowing for more data processing using Numbers.app or Microsoft Excel.app</li>
 <li>Addressed issues related to APFS (Apple File System)</li>
 <li>Addressed move to trash issues</li>]]></content>
@@ -54,7 +54,7 @@
         <title type="html"><![CDATA[Version 7.3.3  :  Monday December 16, 2019]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.630Z</updated>
+        <updated>2021-11-30T05:34:12.890Z</updated>
         <content type="html"><![CDATA[<li>Addressed issues related to macOS https://www.apple.com/macos/catalina</li>
 <li>Addressed issues that were causing large memory utilization</li>
 <li>Performance optimizations</li>]]></content>
@@ -63,7 +63,7 @@
         <title type="html"><![CDATA[Version 7.2.1  :  Monday September 16, 2019]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.631Z</updated>
+        <updated>2021-11-30T05:34:12.892Z</updated>
         <content type="html"><![CDATA[<li>Added support for macOS https://www.apple.com/macos/catalina</li>
 <li>Added code to automatically show/hide volumes in the sidebar as they are mounted/ejected from the Finder</li>]]></content>
     </entry>
@@ -71,7 +71,7 @@
         <title type="html"><![CDATA[Version 7.1.1  :  Monday August 19, 2019]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.631Z</updated>
+        <updated>2021-11-30T05:34:12.918Z</updated>
         <content type="html"><![CDATA[<li>Brought back the Table View mode (from v6), to allow a flat view of all files recursively</li>
 <li>Improved filtering on the Table View, Duplicate View and Cleaner View</li>
 <li>Fixes to the duplicate and file categorization engine</li>
@@ -81,7 +81,7 @@
         <title type="html"><![CDATA[Version 7.1.0  :  Monday July 15, 2019]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.632Z</updated>
+        <updated>2021-11-30T05:34:12.919Z</updated>
         <content type="html"><![CDATA[<li>Added support for https://en.wikipedia.org/wiki/ExFAT file systems</li>
 <li>Added filtering by date/(date range) or size/(size range) to the duplicates view</li>]]></content>
     </entry>
@@ -89,7 +89,7 @@
         <title type="html"><![CDATA[Version 7.0.9  :  Monday June 10, 2019]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.645Z</updated>
+        <updated>2021-11-30T05:34:12.921Z</updated>
         <content type="html"><![CDATA[<li>Fixes to the PieChart View mode</li>
 <li>Fixes to Mojave DarkMode</li>]]></content>
     </entry>
@@ -97,7 +97,7 @@
         <title type="html"><![CDATA[Version 7.0.8  :  Monday May 27, 2019]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.646Z</updated>
+        <updated>2021-11-30T05:34:12.928Z</updated>
         <content type="html"><![CDATA[<li>Added Support for Apple's QuickLook Technology</li>
 <li>Fixed a few minor issues related to Mojave DarkMode</li>
 <li>Fixed a rare issue where the application was using excessive amounts of memory</li>
@@ -107,7 +107,7 @@
         <title type="html"><![CDATA[Version 7.0.7  :  Monday May 20, 2019]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.658Z</updated>
+        <updated>2021-11-30T05:34:12.931Z</updated>
         <content type="html"><![CDATA[<li>In browser view mode, the count of files/folders will take in consideration the Show Hidden Files setting</li>
 <li>Adjusted string colors when in DarkMode</li>
 <li>Added Mail my Key for easy in app serial key retrieval</li>
@@ -117,14 +117,14 @@
         <title type="html"><![CDATA[Version 7.0.6  :  Monday May 13, 2019]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.659Z</updated>
+        <updated>2021-11-30T05:34:12.932Z</updated>
         <content type="html"><![CDATA[<li>Completed the re-write in Swift 4 and Apple's newest file system Technologies</li>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Version 6.6.3  :  Monday November 27, 2017]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.660Z</updated>
+        <updated>2021-11-30T05:34:12.933Z</updated>
         <content type="html"><![CDATA[<li>Compatibility with macOS High Sierra (10.13)</li>
 <li>General bug fixes.</li>]]></content>
     </entry>
@@ -132,7 +132,7 @@
         <title type="html"><![CDATA[Version 6.5.4  :  Monday January 9, 2017]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.661Z</updated>
+        <updated>2021-11-30T05:34:12.935Z</updated>
         <content type="html"><![CDATA[<li>Improvements to handle TimeMachine volumes on remote machines or on external drives.</li>
 <li>Improvements to physical (On Disk) file size accuracy.</li>
 <li>Better support for SMB mounted volumes.</li>
@@ -142,14 +142,14 @@
         <title type="html"><![CDATA[Version 6.5.3  :  Monday September 19, 2016]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.662Z</updated>
+        <updated>2021-11-30T05:34:12.945Z</updated>
         <content type="html"><![CDATA[<li>Updated to support macOS Sierra.</li>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Version 6.5.2  :  Monday July 11, 2016]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.663Z</updated>
+        <updated>2021-11-30T05:34:12.946Z</updated>
         <content type="html"><![CDATA[<li>Sparkle updates are now using the more secure SSL protocol.</li>
 <li>When measuring SSD or Flash drives the app will scan a few times faster.</li>
 <li>Bug fixes and enhancements to printing.</li>
@@ -159,7 +159,7 @@
         <title type="html"><![CDATA[Version 6.4.3  :  Monday December 7, 2015]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.664Z</updated>
+        <updated>2021-11-30T05:34:12.947Z</updated>
         <content type="html"><![CDATA[<li>Added menu to disable MobileBackups.</li>
 <li>Added code to simplify serial key registration.</li>
 <li>Minor bug fixes.</li>]]></content>
@@ -168,7 +168,7 @@
         <title type="html"><![CDATA[Version 6.4.1  :  Friday November 27, 2015]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.665Z</updated>
+        <updated>2021-11-30T05:34:12.948Z</updated>
         <content type="html"><![CDATA[<li>Added support for MobileBackups (mtmfs), msdos and exfat file systems.</li>
 <li>Added support for sudo in trial mode.</li>]]></content>
     </entry>
@@ -176,7 +176,7 @@
         <title type="html"><![CDATA[Version 6.3.2  :  Friday November 6, 2015]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.666Z</updated>
+        <updated>2021-11-30T05:34:12.949Z</updated>
         <content type="html"><![CDATA[<li>Fixed crash related to database upgrade from 6.2.1</li>
 <li>Added support for symbolic links. We will account them as simple files of 4kb and adjust their icons. We will not follow links.</li>]]></content>
     </entry>
@@ -184,7 +184,7 @@
         <title type="html"><![CDATA[Version 6.3.1  :  Monday October 5, 2015]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.673Z</updated>
+        <updated>2021-11-30T05:34:12.950Z</updated>
         <content type="html"><![CDATA[<li>Blessed release for Apple's 10.11 ElCapitan Operating System.</li>
 <li>Implemented the ability to measure Time Machine volumes. The numbers are updated when measuring as admin. To reduce the measurement time we are closely estimating the size.</li>
 <li>Heavy File System Optimizations. We are seeing at least 25% improvement on a full disk scan and an order of magnitude with regard to the handling of Apple FSEvents.</li>
@@ -196,7 +196,7 @@
         <title type="html"><![CDATA[Version 6.2.1  :  Monday June 8, 2015]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.673Z</updated>
+        <updated>2021-11-30T05:34:12.951Z</updated>
         <content type="html"><![CDATA[<li>Implemented the ability to quickly measure separate folders rather than the whole volume. Drop a folder in the left side bar and measure it quickly</li>
 <li>Reduced memory usage by a good 15%</li>
 <li>Reduced time to open the database by 10%, making the app snapier on launch</li>
@@ -211,7 +211,7 @@
         <title type="html"><![CDATA[Version 6.2.0  :  Monday April 20, 2015]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.674Z</updated>
+        <updated>2021-11-30T05:34:12.952Z</updated>
         <content type="html"><![CDATA[<li>Addressed issues related to autolayout on 10.8 systems</li>
 <li>Implemented Preferences 'Exclude' pane</li>
 <li>Implemented printing</li>]]></content>
@@ -220,7 +220,7 @@
         <title type="html"><![CDATA[Version 6.1.8  :  Wednesday March 4, 2015]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.675Z</updated>
+        <updated>2021-11-30T05:34:12.954Z</updated>
         <content type="html"><![CDATA[<li>Addressed issues related to localization</li>
 <li>Updated user guide</li>]]></content>
     </entry>
@@ -228,7 +228,7 @@
         <title type="html"><![CDATA[Version 6.1.7  :  Monday February 23, 2015]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.676Z</updated>
+        <updated>2021-11-30T05:34:12.955Z</updated>
         <content type="html"><![CDATA[<li>Addressed duplicate filtering when switching between sidebar items</li>
 <li>Addressed obscure crash when switching between sidebar items</li>
 <li>Addressed issue when adding/removing favorites from the sidebar</li>
@@ -240,7 +240,7 @@
         <title type="html"><![CDATA[Version 6.1.6  :  Monday February 9, 2015]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.678Z</updated>
+        <updated>2021-11-30T05:34:12.956Z</updated>
         <content type="html"><![CDATA[<li>Overhaul of the duplicate UI for more flexibility</li>
 <li>Overhaul of the left sidebar view</li>
 <li>Upgraded to apple's autolayout</li>
@@ -254,7 +254,7 @@
         <title type="html"><![CDATA[Version 6.1.5  :  Monday January 5, 2015]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.679Z</updated>
+        <updated>2021-11-30T05:34:12.958Z</updated>
         <content type="html"><![CDATA[<li>The application is now 64bit, it will consume a bit more memory but the advantages are far greater</li>
 <li>Initial support for Apple's FSEvents. This allows WhatSize to be synchronized with file system changes in real time</li>
 <li>Overhaul of the duplicate engine for 3 to 5 times faster duplicate finding</li>
@@ -275,7 +275,7 @@
         <title type="html"><![CDATA[Version 6.0.4  :  Monday September 8, 2014]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.679Z</updated>
+        <updated>2021-11-30T05:34:12.958Z</updated>
         <content type="html"><![CDATA[<li>Reworked the database engine to allow faster, more accurate and more flexible file system size updates.</li>
 <li>Reworked the cleaning tools into one trivial window.</li>
 <li>Remove gigabytes of junk in one click.</li>
@@ -288,7 +288,7 @@
         <title type="html"><![CDATA[Version 5.3.2  :  Monday August 27, 2012]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.680Z</updated>
+        <updated>2021-11-30T05:34:12.959Z</updated>
         <content type="html"><![CDATA[<li>Dropped support for MAC OSX 10.5, Version 5.2.1, is the latest version that supports 10.5</li>
 <li>The package installer and all binary products are now signed to conform with Apple's GateKeeper Technology.</li>
 <li>Addressed issuse where the file names started with '.Trash'.</li>
@@ -303,7 +303,7 @@
         <title type="html"><![CDATA[Version 5.2.1  :  Monday January 9, 2012]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.684Z</updated>
+        <updated>2021-11-30T05:34:12.960Z</updated>
         <content type="html"><![CDATA[<li>Added preference pane to better handle CSV exports.</li>
 <li>Added measuring of TimeMachine volumes. This feature will help identify local TimeMachine snapshots.</li>
 <li>Dropped support for MAC OSX 10.4, Version 5.1.1, is the latest version that supports 10.4.</li>
@@ -314,7 +314,7 @@
         <title type="html"><![CDATA[Version 5.1.1  :  Monday November 21, 2011]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.685Z</updated>
+        <updated>2021-11-30T05:34:12.961Z</updated>
         <content type="html"><![CDATA[<li>This is mostly a maintenance release to comply with the Apple Mac Store.</li>
 <li>Added sorting by column header click in TableView mode.</li>]]></content>
     </entry>
@@ -322,7 +322,7 @@
         <title type="html"><![CDATA[Version 5.0.6  :  Tuesday October 4, 2011]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.685Z</updated>
+        <updated>2021-11-30T05:34:12.962Z</updated>
         <content type="html"><![CDATA[<li>The application will now suport Lion's full screen.</li>
 <li>Streamlined the user interface by merging the 'TableView' window with the main window.</li>
 <li>When finding duplicates the file that has the oldest modified date is considered to be the original.</li>
@@ -336,7 +336,7 @@
         <title type="html"><![CDATA[Version 5.0.4  :  Tuesday September 20, 2011]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.687Z</updated>
+        <updated>2021-11-30T05:34:12.963Z</updated>
         <content type="html"><![CDATA[<li>The application will now suport Lion's full screen.</li>
 <li>Added "CMD+D", or right click context menu "Select All Duplicates". Now you can find and remove all duplicates in no time at all.</li>
 <li>Added code that invokes Finder's Empty Trash.</li>
@@ -346,7 +346,7 @@
         <title type="html"><![CDATA[Version 5.0.2  :  Tuesday August 8, 2011]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.687Z</updated>
+        <updated>2021-11-30T05:34:12.964Z</updated>
         <content type="html"><![CDATA[<li>This release is now compatible with v10.7 Lion.</li>
 <li>Fixed Lion file size math. In Lion one KB is 1000 so apple went to multiples of 1000 rather than multiples of 1024 when displaying the compact file size.</li>
 <li>Addressed issue where path names contain '/' characters, Finder will convert these into ':'.</li>
@@ -357,7 +357,7 @@
         <title type="html"><![CDATA[Version 4.9.11  :  Tuesday June 21, 2011]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.688Z</updated>
+        <updated>2021-11-30T05:34:12.965Z</updated>
         <content type="html"><![CDATA[<li>Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>This release is now compatible with v10.7 Lion, developer preview.</li>
 <li>Addressed multiple selection issue when in browser mode.</li>
@@ -368,7 +368,7 @@
         <title type="html"><![CDATA[Version 4.9.10  :  Tuesday May 10, 2011]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.689Z</updated>
+        <updated>2021-11-30T05:34:12.966Z</updated>
         <content type="html"><![CDATA[<li>Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Addressed performance issue when moving to Trash a lot of duplicate files.</li>
 <li>Added Duplicates Column to improve the handling and the display of duplicate files and folders.</li>
@@ -381,7 +381,7 @@
         <title type="html"><![CDATA[Version 4.9.9  :  Tuesday April 19, 2011]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.689Z</updated>
+        <updated>2021-11-30T05:34:12.967Z</updated>
         <content type="html"><![CDATA[<li>Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added modified date to the CSV exports.</li>
 <li>Added ability to export very large folders.</li>
@@ -391,7 +391,7 @@
         <title type="html"><![CDATA[Version 4.9.8  :  Tuesday October 5, 2010]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.690Z</updated>
+        <updated>2021-11-30T05:34:12.969Z</updated>
         <content type="html"><![CDATA[<li>Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added "CMD+i", or right click context menu "Selection size". Will display size info for a selection on the Table View.</li>
 <li>Added "Help-&gt;User Guide" Menu item and PDF.</li>
@@ -404,7 +404,7 @@
         <title type="html"><![CDATA[Version 4.9.7  :  Thursday August 26, 2010]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.691Z</updated>
+        <updated>2021-11-30T05:34:12.970Z</updated>
         <content type="html"><![CDATA[<li>Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Addressed issue with 'removable' file:// volumes, ie: idevices mounted as drives.</li>
 <li>Addressed issue with 'fusefs' type volumes, ie: idevices mounted as drives.</li>
@@ -415,7 +415,7 @@
         <title type="html"><![CDATA[Version 4.9.6  :  Monday July 12, 2010]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.692Z</updated>
+        <updated>2021-11-30T05:34:12.971Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Addressed issue when manually entering license keys.</li>
 <li>Addressed issue when performing duplicate search on old slow machines and very large files.</li>]]></content>
@@ -424,7 +424,7 @@
         <title type="html"><![CDATA[Version 4.9.5  :  Tuesday May 11, 2010]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.693Z</updated>
+        <updated>2021-11-30T05:34:12.972Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Addressed issue with NSException backtracks in SnowLeopard and machines that do not have the atos utility installed. This was causing an application crash.</li>
 <li>Addressed issue related to NSDistantObject exceptions. These were being bubbled up to the user level and should have not.</li>]]></content>
@@ -433,7 +433,7 @@
         <title type="html"><![CDATA[Version 4.9.4  :  Tuesday May 11, 2010]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.694Z</updated>
+        <updated>2021-11-30T05:34:12.973Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Bug fixes, enhacements, to handle uncaught exceptions. Some of these issues were affecting users on SnowLeopard.
 </li>
@@ -443,7 +443,7 @@
         <title type="html"><![CDATA[Version 4.9.3  :  Wednesday March 24, 2010]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.696Z</updated>
+        <updated>2021-11-30T05:34:12.973Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Bug fixes, enhacements, to the Find Duplicate Files functionality.
 	</li>
@@ -466,7 +466,7 @@
         <title type="html"><![CDATA[Version 4.9.2  :  Tuesday April 13, 2010]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.697Z</updated>
+        <updated>2021-11-30T05:34:12.974Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Bug fixes, enhacements, to the Find Duplicate Files functionality.
 	</li>]]></content>
@@ -475,7 +475,7 @@
         <title type="html"><![CDATA[Version 4.9.1  :  Tuesday February 23, 2010]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.698Z</updated>
+        <updated>2021-11-30T05:34:12.980Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Bug fixes, enhancements, to the Find Duplicate Files functionality.
 	</li>
@@ -488,7 +488,7 @@
         <title type="html"><![CDATA[Version 4.9.0  :  Tuesday February 2, 2010]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.700Z</updated>
+        <updated>2021-11-30T05:34:12.982Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added Duplicate Files functionality. We consider two files to be duplicates if they have the same md5 hash value. Figuring out the md5 hashes can be a long and expensive operation, so we will build the hash values in the background and store them into a database for convenience. If the files are modified the md5 hashes will be recalculated. You'd be suprised at how many duplicate files are out there.
 	</li>
@@ -506,7 +506,7 @@
         <title type="html"><![CDATA[Version 4.8.3  :  Tuesday November 17, 2009]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.701Z</updated>
+        <updated>2021-11-30T05:34:12.982Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users. Recommended to all SnowLeopard Users.</li>
 <li>Major fixes in memory usage. For example while measuring a Volume with 350GB worth of data the app will consume 250MB less of memory. Minor speed improvements as well.
 	</li>
@@ -517,7 +517,7 @@
         <title type="html"><![CDATA[Version 4.8.2  :  Monday October 19, 2009]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.702Z</updated>
+        <updated>2021-11-30T05:34:12.983Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Minor bug fixes related to SnowLeopard.
 	</li>]]></content>
@@ -526,7 +526,7 @@
         <title type="html"><![CDATA[Version 4.8.1  :  Monday August 31, 2009]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.704Z</updated>
+        <updated>2021-11-30T05:34:12.983Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Minor bug fixes related to SnowLeopard.
 	</li>]]></content>
@@ -535,7 +535,7 @@
         <title type="html"><![CDATA[Version 4.8.0  :  Tuesday August 25, 2009]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.705Z</updated>
+        <updated>2021-11-30T05:34:12.983Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added 'Lipo Suction' module. Remove those extra architecture bytes. When Apple moved to universal binaries, the binaries got twice as big. You can lipo the binary files add keep only the native architecture bytes. For example if you are running on a PPC machine you could get rid of all the Intel binaries.
 	</li>]]></content>
@@ -544,7 +544,7 @@
         <title type="html"><![CDATA[Version 4.6.0  :  Tuesday May 12th, 2009]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.706Z</updated>
+        <updated>2021-11-30T05:34:12.984Z</updated>
         <content type="html"><![CDATA[<li>Updates. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added 'Last Modified' date column.
 	</li>
@@ -567,7 +567,7 @@
         <title type="html"><![CDATA[Version 4.5.2  :  Wednesday April 22nd, 2009]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.708Z</updated>
+        <updated>2021-11-30T05:34:12.984Z</updated>
         <content type="html"><![CDATA[<li>Updates. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Fixed crash when calling Delocalize without a node or folder selection
 	</li>
@@ -580,7 +580,7 @@
         <title type="html"><![CDATA[Version 4.5.1  :  Monday March 16th, 2009]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.709Z</updated>
+        <updated>2021-11-30T05:34:12.986Z</updated>
         <content type="html"><![CDATA[<li>Updates. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Fixed 'Copy Path' context menu to copy paths as string, we were copying as xml.
 	</li>
@@ -593,7 +593,7 @@
         <title type="html"><![CDATA[Version 4.4.2  :  Monday March 2nd, 2009]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.712Z</updated>
+        <updated>2021-11-30T05:34:12.986Z</updated>
         <content type="html"><![CDATA[<li>Updates. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added Delocalizer module. Remove those unwanted locales for languages you never knew existed.
 	</li>]]></content>
@@ -602,7 +602,7 @@
         <title type="html"><![CDATA[Version 4.4.1  :  Tuesday December 2nd, 2008]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.712Z</updated>
+        <updated>2021-11-30T05:34:12.986Z</updated>
         <content type="html"><![CDATA[<li>Updates. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added new database engine for speed and scalability to support large file systems with more than 4 million files and folders.
 	</li>
@@ -617,7 +617,7 @@
         <title type="html"><![CDATA[Version 4.3.1  :  Tuesday August 19th, 2008]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.714Z</updated>
+        <updated>2021-11-30T05:34:12.988Z</updated>
         <content type="html"><![CDATA[<li>Updates. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. We regret to drop support for OSX 10.3 users. This version will now work only on 10.4 and above.</li>
 <li>Properly updating the window title when reloading the TableView mode.
 	</li>
@@ -630,7 +630,7 @@
         <title type="html"><![CDATA[Version 4.3.0  :  Monday August 18th, 2008]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.715Z</updated>
+        <updated>2021-11-30T05:34:12.988Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Thanks to support from our customers we have spent a lot of time to make this simple app even more useful. This is a Free update.
 	</li>
@@ -659,7 +659,7 @@
         <title type="html"><![CDATA[Version 4.2.0  :  Wednesday February, 13th, 2008]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.716Z</updated>
+        <updated>2021-11-30T05:34:12.988Z</updated>
         <content type="html"><![CDATA[<li>Updates.</li>
 <li>Added PieChart view.
 	</li>]]></content>
@@ -668,7 +668,7 @@
         <title type="html"><![CDATA[Version 4.1.1  :  Thursday December, 27th, 2007]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.717Z</updated>
+        <updated>2021-11-30T05:34:12.989Z</updated>
         <content type="html"><![CDATA[<li>10.3.9 Compatibility.</li>
 <li>Overall speed improvements to the serialization engine.
 	</li>
@@ -681,7 +681,7 @@
         <title type="html"><![CDATA[Version 4.1.0  :  Thursday December, 6th, 2007]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.718Z</updated>
+        <updated>2021-11-30T05:34:12.989Z</updated>
         <content type="html"><![CDATA[<li>Added Persistence.
 	</li>
 <li>Measured side bar items will now persist into ~/Library/Caches/WhatSize/. When the user clicks on a previously measured side bar item we will load the cached info in one instant. The cache is updated each time the user elects to re-measure a side bar item.
@@ -691,7 +691,7 @@
         <title type="html"><![CDATA[Version 4.7.0  :  Monday June 22nd, 2009]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.722Z</updated>
+        <updated>2021-11-30T05:34:12.989Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added 'Nib'o Suction' module. Remove those unwanted nib files, developers forgot to. These files are used for developing software and are not used by the installed software. They can safely be removed.
 	</li>
@@ -706,7 +706,7 @@
         <title type="html"><![CDATA[Version 4.0  :  Thursday November, 29th, 2007]]></title>
         <id>https://www.whatsizemac.com/release-notes/</id>
         <link href="https://www.whatsizemac.com/release-notes/"/>
-        <updated>2021-11-29T05:35:24.723Z</updated>
+        <updated>2021-11-30T05:34:12.990Z</updated>
         <content type="html"><![CDATA[<li>Complete Overhaul.
 	</li>
 <li>Total redesign brings in a true client-server architecture. This means support for System Administrator so that even files owned by other users of the machine can be measured.

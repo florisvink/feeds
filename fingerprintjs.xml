@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.fingerprintjs.com/changelog</id>
     <title>FingerprintJS Changelogs</title>
-    <updated>2021-11-30T05:34:13.639Z</updated>
+    <updated>2021-12-01T05:35:51.556Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://dev.fingerprintjs.com/favicon.ico</icon>
     <entry>
@@ -97,7 +97,7 @@
 <li>Many new identification methods under the hood</li>
 <li>JS agent retries visitor identification request in case of error</li>
 <li>A new billing model. Identifications are billed per a unique visitor instead of a request.</li>
-<li>New <a target="_self" href="/docs/js-agent#error-handling">expected JS agent errors</a>: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>FingerprintJS.ERROR_WRONG_REGION</code>, <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>FingerprintJS.ERROR_SUBSCRIPTION_NOT_ACTIVE</code></li>
+<li>New <a target="_self" href="/docs/js-agent#error-handling">expected JS agent errors</a>: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">FingerprintJS.ERROR_WRONG_REGION</span></code>, <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">FingerprintJS.ERROR_SUBSCRIPTION_NOT_ACTIVE</span></code></li>
 </ul>]]></content>
     </entry>
     <entry>

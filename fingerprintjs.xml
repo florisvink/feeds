@@ -2,9 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.fingerprintjs.com/changelog</id>
     <title>FingerprintJS Changelogs</title>
-    <updated>2021-12-06T17:35:44.540Z</updated>
+    <updated>2021-12-08T17:43:54.033Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://dev.fingerprintjs.com/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.5.4]]></title>
+        <id>https://dev.fingerprintjs.com/changelog/3-5-4</id>
+        <link href="https://dev.fingerprintjs.com/changelog/3-5-4"/>
+        <updated>2021-12-08T17:43:41.800Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>Improve incognito mode detection accuracy in Safari</li>
+<li>Deprecate the <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>ipResolution</code> parameter because it affects nothing</li>
+<li>The <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>get()</code> result's <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>ipLocation</code> field is marked is optional in the TypeScript declaration. The field could be undefined in fact, so this is a fix of the type declaration.</li>
+<li>Actualize <a target="_self" href="/docs/browser-support">the list of supported browsers</a></li>
+<li>A new <a target="_self" href="/docs/js-agent#error-handling">error code</a> for cases when the JS agent version is not supported: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>FingerprintJS.ERROR_UNSUPPORTED_VERSION</code></li>
+<li>Decrease the JS agent code size by removing legacy parts</li>
+<li>fix: An indefinite <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>setTimeout</code> loop in Firefox</li>
+</ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.5.3]]></title>
         <id>https://dev.fingerprintjs.com/changelog/3-5-3</id>
@@ -98,18 +113,6 @@
 <li>JS agent retries visitor identification request in case of error</li>
 <li>A new billing model. Identifications are billed per a unique visitor instead of a request.</li>
 <li>New <a target="_self" href="/docs/js-agent#error-handling">expected JS agent errors</a>: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>FingerprintJS.ERROR_WRONG_REGION</code>, <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>FingerprintJS.ERROR_SUBSCRIPTION_NOT_ACTIVE</code></li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v3.2.6]]></title>
-        <id>https://dev.fingerprintjs.com/changelog/3-2-6</id>
-        <link href="https://dev.fingerprintjs.com/changelog/3-2-6"/>
-        <updated>2021-10-22T15:36:59.553Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>fix: Remote monitoring doesn't work in Android Browser 4.1</li>
-<li>fix: JS agent script encoding can change the canvas fingerprint, that can reduce accuracy in rare cases</li>
-<li>Add internal request encryption</li>
-<li>Improve the fingerprinting performance</li>
 </ul>]]></content>
     </entry>
     <entry>

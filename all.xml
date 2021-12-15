@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://florisvink.github.io/feeds/all.xml</id>
     <title>Combined feed</title>
-    <updated>2021-12-15T05:35:11.115Z</updated>
+    <updated>2021-12-15T17:44:39.935Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <entry>
         <title type="html"><![CDATA[v3.5.4 (FingerprintJS Changelogs)]]></title>
@@ -11,12 +11,12 @@
         <updated>2021-12-08T17:43:41.800Z</updated>
         <content type="html"><![CDATA[<ul>
 <li>Improve incognito mode detection accuracy in Safari</li>
-<li>Deprecate the <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>ipResolution</code> parameter because it affects nothing</li>
-<li>The <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>get()</code> result's <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>ipLocation</code> field is marked is optional in the TypeScript declaration. The field could be undefined in fact, so this is a fix of the type declaration.</li>
+<li>Deprecate the <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">ipResolution</span></code> parameter because it affects nothing</li>
+<li>The <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">get()</span></code> result's <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">ipLocation</span></code> field is marked is optional in the TypeScript declaration. The field could be undefined in fact, so this is a fix of the type declaration.</li>
 <li>Actualize <a target="_self" href="/docs/browser-support">the list of supported browsers</a></li>
-<li>A new <a target="_self" href="/docs/js-agent#error-handling">error code</a> for cases when the JS agent version is not supported: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>FingerprintJS.ERROR_UNSUPPORTED_VERSION</code></li>
+<li>A new <a target="_self" href="/docs/js-agent#error-handling">error code</a> for cases when the JS agent version is not supported: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">FingerprintJS.ERROR_UNSUPPORTED_VERSION</span></code></li>
 <li>Decrease the JS agent code size by removing legacy parts</li>
-<li>fix: An indefinite <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>setTimeout</code> loop in Firefox</li>
+<li>fix: An indefinite <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">setTimeout</span></code> loop in Firefox</li>
 </ul>]]></content>
     </entry>
     <entry>
@@ -119,62 +119,62 @@
         <id>https://dev.fingerprintjs.com/changelog?page=2</id>
         <link href="https://dev.fingerprintjs.com/changelog?page=2"/>
         <updated>2021-10-22T15:36:59.068Z</updated>
-        <content type="html"><![CDATA[<nav aria-label="Pagination" class="Pagination1KE9HXCXYd0E rm-Pagination"><span class="Pagination-metaW9Wis_8kZD2T">1 of 3</span><a aria-current="page" class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4 active" aria-label="Next Page" href="/changelog?page=2"><div class="Pagination-text3yhjKs84FCa6 Pagination-text_right3I2htOlt_CfS"></div><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-right2"></span></a></nav>]]></content>
+        <content type="html"><![CDATA[<nav aria-label="Pagination" class="Pagination1KE9HXCXYd0E rm-Pagination"><span class="Pagination-metaW9Wis_8kZD2T">1 of 3</span><a aria-current="page" class="Pagination-link1SfnH-8-DxMA Pagination-link_right2v3HzuwWFxb4 active" aria-label="Next Page" href="/changelog?page=2" target="_self"><div class="Pagination-text3yhjKs84FCa6 Pagination-text_right3I2htOlt_CfS"></div><span class="Pagination-iconGA9TkfVeYvTp icon-arrow-right2"></span></a></nav>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[1.2.20 (Firefoo Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:01.760Z</updated>
+        <updated>2021-12-15T17:44:29.608Z</updated>
         <content type="html"><![CDATA[<li>Rename and delete fields in a collection (available via right-click on the table header)</li><li>Correct handling of collections with special characters in their resource path</li><li>UX improvements</li>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[1.2.16 (Firefoo Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:01.765Z</updated>
+        <updated>2021-12-15T17:44:29.610Z</updated>
         <content type="html"><![CDATA[<li>Support for Firebase Authentication</li><ul style="list-style:disc;margin-block-start:0;margin-block-end:0;padding-left:20px"><li>If a project has authentication enabled, an authentication entry will appear as the first subitem of the project in the left side bar.</li><li>Export, import and transfer users.</li><li>The script editor also supports authentication. Use <code>admin.auth()</code></li></ul><li>Command Palette</li><ul style="list-style:disc;margin-block-start:0;margin-block-end:0;padding-left:20px"><li>Open the command palette by pressing <code>Cmd+P</code>(macOS), <code>Ctrl+P</code>(Windows, Linux)</li><li>Open collections, saved queries, settings, etc.</li></ul><li>Document References can now be used in the Simple Query Where condition</li>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[1.2.8 (Firefoo Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:01.774Z</updated>
+        <updated>2021-12-15T17:44:29.614Z</updated>
         <content type="html"><![CDATA[<li>Data transfer between projects</li><ul style="list-style:disc;margin-block-start:0;margin-block-end:0;padding-left:20px"><li>Right-click a project or a collection in the sidebar and select <!-- -->"<!-- -->Transfer Data…<!-- -->"</li><li>Use cases: Transfer between production and development projects or a local emulator</li><li>Save transfers by clicking the star in the transfer tab</li><li>Find saved transfers by clicking the star in the bottom of the sidebar</li></ul><li>Tab Split Panes</li><ul style="list-style:disc;margin-block-start:0;margin-block-end:0;padding-left:20px"><li>Move a tab to the next pane by right-clicking on its tab title and clicking <!-- -->"<!-- -->Tab Split View<!-- -->"<!-- -->. This works only if more than one tab is open.</li><li>Shortcut to focus the next pane: <code>Cmd+;</code>(macOS), <code>Ctrl+;</code>(Windows, Linux)</li><li>Shortcut to move tab to next pane: <code>Cmd+<!-- -->'</code>(macOS),<!-- --> <code>Ctrl+<!-- -->'</code>(Windows, Linux)</li></ul><li>Linux: Release of a zip version, allowing Firefoo to run on non .deb and non .rpm based systems</li><li>Fixed an issue with the auto-updater on Windows on connection loss during an update</li><li>Show correct order of documents with numeric ID</li><li>UX improvements, more hints</li>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[1.2.2 (Firefoo Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:01.774Z</updated>
+        <updated>2021-12-15T17:44:29.618Z</updated>
         <content type="html"><![CDATA[<li>Don<!-- -->'<!-- -->t show update modal repeatedly</li><li>Fix rendering bug in Simple Query when entering inequality operators</li>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[1.2.1 (Firefoo Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:01.780Z</updated>
+        <updated>2021-12-15T17:44:29.621Z</updated>
         <content type="html"><![CDATA[<li>New tab bar with drag &amp; drop support</li><li>Assign colors to projects to distinguish them! Right-click the project in the sidebar.</li><li>Table Column dialog redesigned with filter</li><li>Data type color-highlighting in Table and Tree output</li><li>Query filters: better autocomplete and warnings</li><li>Improve Number handling<ul style="list-style:disc;margin-block-start:0;margin-block-end:0;padding-left:20px"><li>Support NaN, Infinity and -Infinity</li><li>Save numbers as integers when applicable</li><li>Preserve double and integer type information when exporting</li></ul></li><li>Handle microseconds correctly in timestamps</li>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[1.1.10 (Firefoo Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:01.781Z</updated>
+        <updated>2021-12-15T17:44:29.621Z</updated>
         <content type="html"><![CDATA[<li>Improve export<ul style="list-style:disc;margin-block-start:0;margin-block-end:0;padding-left:20px"><li>Fix bug with large collections</li><li>Allow export of CSV files which don<!-- -->'<!-- -->t fit into memory</li><li>TableView: Respect column order and hidden columns in result export</li></ul></li><li>Keep tab state after update</li><li>Add clear button to tab toolbar</li>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[1.1.7 (Firefoo Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:01.782Z</updated>
+        <updated>2021-12-15T17:44:29.625Z</updated>
         <content type="html"><![CDATA[<li>Fix keyboard bug in JSON Editor</li><li>Add read-only banner in JSON Viewer</li>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[1.1.1 (Firefoo Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:01.782Z</updated>
+        <updated>2021-12-15T17:44:29.626Z</updated>
         <content type="html"><![CDATA[<li>Save Queries<ul style="list-style:disc;margin-block-start:0;margin-block-end:0;padding-left:20px"><li>Queries and the tab<!-- -->'<!-- -->s state can be saved and later be restored. To save a query, click on the <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path></svg> icon next to the project chooser. Saved queries can be reached by a click on the big <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 0 0 .6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0 0 46.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"></path></svg> icon in the bottom left.</li></ul></li><li>Auto-complete for where and order by clauses<ul style="list-style:disc;margin-block-start:0;margin-block-end:0;padding-left:20px"><li>Cycle through the suggestions by pressing the tab key.</li></ul></li><li>Settings Menu: reachable via <code>Ctrl+Comma</code> or File <!-- -->-&gt;<!-- --> Settings<!-- --> </li><li>Small UI improvements</li><li>Numerous bug fixes</li>]]></content>
     </entry>
     <entry>
@@ -216,7 +216,7 @@
         <title type="html"><![CDATA[Version 7.7.3  :  Monday November 29 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.388Z</updated>
+        <updated>2021-12-15T17:44:39.104Z</updated>
         <content type="html"><![CDATA[<li>Fixing Crashes introduced as part of the swift (getattrlistbulk) upgrade</li>
 <li>I have downgraded to the obj-c version of (getattrlistbulk)</li>
 <li>Fixes to the Allow Full Disk Access routine</li>
@@ -228,7 +228,7 @@
         <title type="html"><![CDATA[Version 7.6.5  :  Monday August 16 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.389Z</updated>
+        <updated>2021-12-15T17:44:39.104Z</updated>
         <content type="html"><![CDATA[<li>Fixing TimeMachine support for macOS Big Sur</li>
 <li>Fixing Swift library linking issue that affects macOS systems older than 10.14</li>
 <li>Maintenance Fixes</li>]]></content>
@@ -237,7 +237,7 @@
         <title type="html"><![CDATA[Version 7.6.4  :  Monday November 30 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.390Z</updated>
+        <updated>2021-12-15T17:44:39.104Z</updated>
         <content type="html"><![CDATA[<li>Adding support for macOS Big Sur</li>
 <li>Addressed a rare issue that would cause an infinite loop on startup</li>
 <li>Addressed issue related to a mounted volume with missing volume UUID</li>
@@ -247,7 +247,7 @@
         <title type="html"><![CDATA[Version 7.4.4  :  Monday August 10 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.391Z</updated>
+        <updated>2021-12-15T17:44:39.104Z</updated>
         <content type="html"><![CDATA[<li>When measuring a parent folder, children that are present on the SideBar are automatically updated</li>
 <li>Addressed a small issue when handling the Request Activation Reset</li>
 <li>Added 'Empty Trash' menu item to empty the trash using Finder</li>
@@ -257,14 +257,14 @@
         <title type="html"><![CDATA[Version 7.4.3  :  Monday June 8, 2020 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.392Z</updated>
+        <updated>2021-12-15T17:44:39.104Z</updated>
         <content type="html"><![CDATA[<li>Added support for managing local TimeMachine/APFS snapshots. These invisible files can fill up your disk. This feature is available on 10.15 and newer</li>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Version 7.4.1  :  Monday April 6, 2020 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.392Z</updated>
+        <updated>2021-12-15T17:44:39.104Z</updated>
         <content type="html"><![CDATA[<li>Implemented Export As TSV, allowing for more data processing using Numbers.app or Microsoft Excel.app</li>
 <li>Addressed issues related to APFS (Apple File System)</li>
 <li>Addressed move to trash issues</li>]]></content>
@@ -273,7 +273,7 @@
         <title type="html"><![CDATA[Version 7.3.3  :  Monday December 16, 2019 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.393Z</updated>
+        <updated>2021-12-15T17:44:39.105Z</updated>
         <content type="html"><![CDATA[<li>Addressed issues related to macOS https://www.apple.com/macos/catalina</li>
 <li>Addressed issues that were causing large memory utilization</li>
 <li>Performance optimizations</li>]]></content>
@@ -282,7 +282,7 @@
         <title type="html"><![CDATA[Version 7.2.1  :  Monday September 16, 2019 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.394Z</updated>
+        <updated>2021-12-15T17:44:39.110Z</updated>
         <content type="html"><![CDATA[<li>Added support for macOS https://www.apple.com/macos/catalina</li>
 <li>Added code to automatically show/hide volumes in the sidebar as they are mounted/ejected from the Finder</li>]]></content>
     </entry>
@@ -290,7 +290,7 @@
         <title type="html"><![CDATA[Version 7.1.1  :  Monday August 19, 2019 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.395Z</updated>
+        <updated>2021-12-15T17:44:39.111Z</updated>
         <content type="html"><![CDATA[<li>Brought back the Table View mode (from v6), to allow a flat view of all files recursively</li>
 <li>Improved filtering on the Table View, Duplicate View and Cleaner View</li>
 <li>Fixes to the duplicate and file categorization engine</li>
@@ -300,7 +300,7 @@
         <title type="html"><![CDATA[Version 7.1.0  :  Monday July 15, 2019 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.396Z</updated>
+        <updated>2021-12-15T17:44:39.112Z</updated>
         <content type="html"><![CDATA[<li>Added support for https://en.wikipedia.org/wiki/ExFAT file systems</li>
 <li>Added filtering by date/(date range) or size/(size range) to the duplicates view</li>]]></content>
     </entry>
@@ -308,7 +308,7 @@
         <title type="html"><![CDATA[Version 7.0.9  :  Monday June 10, 2019 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.397Z</updated>
+        <updated>2021-12-15T17:44:39.114Z</updated>
         <content type="html"><![CDATA[<li>Fixes to the PieChart View mode</li>
 <li>Fixes to Mojave DarkMode</li>]]></content>
     </entry>
@@ -316,7 +316,7 @@
         <title type="html"><![CDATA[Version 7.0.8  :  Monday May 27, 2019 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.397Z</updated>
+        <updated>2021-12-15T17:44:39.115Z</updated>
         <content type="html"><![CDATA[<li>Added Support for Apple's QuickLook Technology</li>
 <li>Fixed a few minor issues related to Mojave DarkMode</li>
 <li>Fixed a rare issue where the application was using excessive amounts of memory</li>
@@ -326,7 +326,7 @@
         <title type="html"><![CDATA[Version 7.0.7  :  Monday May 20, 2019 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.398Z</updated>
+        <updated>2021-12-15T17:44:39.116Z</updated>
         <content type="html"><![CDATA[<li>In browser view mode, the count of files/folders will take in consideration the Show Hidden Files setting</li>
 <li>Adjusted string colors when in DarkMode</li>
 <li>Added Mail my Key for easy in app serial key retrieval</li>
@@ -336,14 +336,14 @@
         <title type="html"><![CDATA[Version 7.0.6  :  Monday May 13, 2019 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.398Z</updated>
+        <updated>2021-12-15T17:44:39.117Z</updated>
         <content type="html"><![CDATA[<li>Completed the re-write in Swift 4 and Apple's newest file system Technologies</li>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Version 6.6.3  :  Monday November 27, 2017 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.399Z</updated>
+        <updated>2021-12-15T17:44:39.118Z</updated>
         <content type="html"><![CDATA[<li>Compatibility with macOS High Sierra (10.13)</li>
 <li>General bug fixes.</li>]]></content>
     </entry>
@@ -351,7 +351,7 @@
         <title type="html"><![CDATA[Version 6.5.4  :  Monday January 9, 2017 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.399Z</updated>
+        <updated>2021-12-15T17:44:39.119Z</updated>
         <content type="html"><![CDATA[<li>Improvements to handle TimeMachine volumes on remote machines or on external drives.</li>
 <li>Improvements to physical (On Disk) file size accuracy.</li>
 <li>Better support for SMB mounted volumes.</li>
@@ -361,14 +361,14 @@
         <title type="html"><![CDATA[Version 6.5.3  :  Monday September 19, 2016 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.400Z</updated>
+        <updated>2021-12-15T17:44:39.131Z</updated>
         <content type="html"><![CDATA[<li>Updated to support macOS Sierra.</li>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Version 6.5.2  :  Monday July 11, 2016 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.401Z</updated>
+        <updated>2021-12-15T17:44:39.132Z</updated>
         <content type="html"><![CDATA[<li>Sparkle updates are now using the more secure SSL protocol.</li>
 <li>When measuring SSD or Flash drives the app will scan a few times faster.</li>
 <li>Bug fixes and enhancements to printing.</li>
@@ -378,7 +378,7 @@
         <title type="html"><![CDATA[Version 6.4.3  :  Monday December 7, 2015 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.401Z</updated>
+        <updated>2021-12-15T17:44:39.132Z</updated>
         <content type="html"><![CDATA[<li>Added menu to disable MobileBackups.</li>
 <li>Added code to simplify serial key registration.</li>
 <li>Minor bug fixes.</li>]]></content>
@@ -387,7 +387,7 @@
         <title type="html"><![CDATA[Version 6.4.1  :  Friday November 27, 2015 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.407Z</updated>
+        <updated>2021-12-15T17:44:39.137Z</updated>
         <content type="html"><![CDATA[<li>Added support for MobileBackups (mtmfs), msdos and exfat file systems.</li>
 <li>Added support for sudo in trial mode.</li>]]></content>
     </entry>
@@ -395,7 +395,7 @@
         <title type="html"><![CDATA[Version 6.3.2  :  Friday November 6, 2015 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.412Z</updated>
+        <updated>2021-12-15T17:44:39.138Z</updated>
         <content type="html"><![CDATA[<li>Fixed crash related to database upgrade from 6.2.1</li>
 <li>Added support for symbolic links. We will account them as simple files of 4kb and adjust their icons. We will not follow links.</li>]]></content>
     </entry>
@@ -403,7 +403,7 @@
         <title type="html"><![CDATA[Version 6.3.1  :  Monday October 5, 2015 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.413Z</updated>
+        <updated>2021-12-15T17:44:39.140Z</updated>
         <content type="html"><![CDATA[<li>Blessed release for Apple's 10.11 ElCapitan Operating System.</li>
 <li>Implemented the ability to measure Time Machine volumes. The numbers are updated when measuring as admin. To reduce the measurement time we are closely estimating the size.</li>
 <li>Heavy File System Optimizations. We are seeing at least 25% improvement on a full disk scan and an order of magnitude with regard to the handling of Apple FSEvents.</li>
@@ -415,7 +415,7 @@
         <title type="html"><![CDATA[Version 6.2.1  :  Monday June 8, 2015 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.414Z</updated>
+        <updated>2021-12-15T17:44:39.142Z</updated>
         <content type="html"><![CDATA[<li>Implemented the ability to quickly measure separate folders rather than the whole volume. Drop a folder in the left side bar and measure it quickly</li>
 <li>Reduced memory usage by a good 15%</li>
 <li>Reduced time to open the database by 10%, making the app snapier on launch</li>
@@ -430,7 +430,7 @@
         <title type="html"><![CDATA[Version 6.2.0  :  Monday April 20, 2015 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.414Z</updated>
+        <updated>2021-12-15T17:44:39.146Z</updated>
         <content type="html"><![CDATA[<li>Addressed issues related to autolayout on 10.8 systems</li>
 <li>Implemented Preferences 'Exclude' pane</li>
 <li>Implemented printing</li>]]></content>
@@ -439,7 +439,7 @@
         <title type="html"><![CDATA[Version 6.1.8  :  Wednesday March 4, 2015 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.415Z</updated>
+        <updated>2021-12-15T17:44:39.147Z</updated>
         <content type="html"><![CDATA[<li>Addressed issues related to localization</li>
 <li>Updated user guide</li>]]></content>
     </entry>
@@ -447,7 +447,7 @@
         <title type="html"><![CDATA[Version 6.1.7  :  Monday February 23, 2015 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.415Z</updated>
+        <updated>2021-12-15T17:44:39.148Z</updated>
         <content type="html"><![CDATA[<li>Addressed duplicate filtering when switching between sidebar items</li>
 <li>Addressed obscure crash when switching between sidebar items</li>
 <li>Addressed issue when adding/removing favorites from the sidebar</li>
@@ -459,7 +459,7 @@
         <title type="html"><![CDATA[Version 6.1.6  :  Monday February 9, 2015 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.416Z</updated>
+        <updated>2021-12-15T17:44:39.149Z</updated>
         <content type="html"><![CDATA[<li>Overhaul of the duplicate UI for more flexibility</li>
 <li>Overhaul of the left sidebar view</li>
 <li>Upgraded to apple's autolayout</li>
@@ -473,7 +473,7 @@
         <title type="html"><![CDATA[Version 6.1.5  :  Monday January 5, 2015 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.417Z</updated>
+        <updated>2021-12-15T17:44:39.150Z</updated>
         <content type="html"><![CDATA[<li>The application is now 64bit, it will consume a bit more memory but the advantages are far greater</li>
 <li>Initial support for Apple's FSEvents. This allows WhatSize to be synchronized with file system changes in real time</li>
 <li>Overhaul of the duplicate engine for 3 to 5 times faster duplicate finding</li>
@@ -494,7 +494,7 @@
         <title type="html"><![CDATA[Version 6.0.4  :  Monday September 8, 2014 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.417Z</updated>
+        <updated>2021-12-15T17:44:39.150Z</updated>
         <content type="html"><![CDATA[<li>Reworked the database engine to allow faster, more accurate and more flexible file system size updates.</li>
 <li>Reworked the cleaning tools into one trivial window.</li>
 <li>Remove gigabytes of junk in one click.</li>
@@ -507,7 +507,7 @@
         <title type="html"><![CDATA[Version 5.3.2  :  Monday August 27, 2012 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.418Z</updated>
+        <updated>2021-12-15T17:44:39.158Z</updated>
         <content type="html"><![CDATA[<li>Dropped support for MAC OSX 10.5, Version 5.2.1, is the latest version that supports 10.5</li>
 <li>The package installer and all binary products are now signed to conform with Apple's GateKeeper Technology.</li>
 <li>Addressed issuse where the file names started with '.Trash'.</li>
@@ -522,7 +522,7 @@
         <title type="html"><![CDATA[Version 5.2.1  :  Monday January 9, 2012 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.419Z</updated>
+        <updated>2021-12-15T17:44:39.159Z</updated>
         <content type="html"><![CDATA[<li>Added preference pane to better handle CSV exports.</li>
 <li>Added measuring of TimeMachine volumes. This feature will help identify local TimeMachine snapshots.</li>
 <li>Dropped support for MAC OSX 10.4, Version 5.1.1, is the latest version that supports 10.4.</li>
@@ -533,7 +533,7 @@
         <title type="html"><![CDATA[Version 5.1.1  :  Monday November 21, 2011 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.420Z</updated>
+        <updated>2021-12-15T17:44:39.160Z</updated>
         <content type="html"><![CDATA[<li>This is mostly a maintenance release to comply with the Apple Mac Store.</li>
 <li>Added sorting by column header click in TableView mode.</li>]]></content>
     </entry>
@@ -541,7 +541,7 @@
         <title type="html"><![CDATA[Version 5.0.6  :  Tuesday October 4, 2011 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.421Z</updated>
+        <updated>2021-12-15T17:44:39.163Z</updated>
         <content type="html"><![CDATA[<li>The application will now suport Lion's full screen.</li>
 <li>Streamlined the user interface by merging the 'TableView' window with the main window.</li>
 <li>When finding duplicates the file that has the oldest modified date is considered to be the original.</li>
@@ -555,7 +555,7 @@
         <title type="html"><![CDATA[Version 5.0.4  :  Tuesday September 20, 2011 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.422Z</updated>
+        <updated>2021-12-15T17:44:39.164Z</updated>
         <content type="html"><![CDATA[<li>The application will now suport Lion's full screen.</li>
 <li>Added "CMD+D", or right click context menu "Select All Duplicates". Now you can find and remove all duplicates in no time at all.</li>
 <li>Added code that invokes Finder's Empty Trash.</li>
@@ -565,7 +565,7 @@
         <title type="html"><![CDATA[Version 5.0.2  :  Tuesday August 8, 2011 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.423Z</updated>
+        <updated>2021-12-15T17:44:39.165Z</updated>
         <content type="html"><![CDATA[<li>This release is now compatible with v10.7 Lion.</li>
 <li>Fixed Lion file size math. In Lion one KB is 1000 so apple went to multiples of 1000 rather than multiples of 1024 when displaying the compact file size.</li>
 <li>Addressed issue where path names contain '/' characters, Finder will convert these into ':'.</li>
@@ -576,7 +576,7 @@
         <title type="html"><![CDATA[Version 4.9.11  :  Tuesday June 21, 2011 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.424Z</updated>
+        <updated>2021-12-15T17:44:39.166Z</updated>
         <content type="html"><![CDATA[<li>Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>This release is now compatible with v10.7 Lion, developer preview.</li>
 <li>Addressed multiple selection issue when in browser mode.</li>
@@ -587,7 +587,7 @@
         <title type="html"><![CDATA[Version 4.9.10  :  Tuesday May 10, 2011 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.425Z</updated>
+        <updated>2021-12-15T17:44:39.167Z</updated>
         <content type="html"><![CDATA[<li>Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Addressed performance issue when moving to Trash a lot of duplicate files.</li>
 <li>Added Duplicates Column to improve the handling and the display of duplicate files and folders.</li>
@@ -600,7 +600,7 @@
         <title type="html"><![CDATA[Version 4.9.9  :  Tuesday April 19, 2011 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.426Z</updated>
+        <updated>2021-12-15T17:44:39.169Z</updated>
         <content type="html"><![CDATA[<li>Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added modified date to the CSV exports.</li>
 <li>Added ability to export very large folders.</li>
@@ -610,7 +610,7 @@
         <title type="html"><![CDATA[Version 4.9.8  :  Tuesday October 5, 2010 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.426Z</updated>
+        <updated>2021-12-15T17:44:39.169Z</updated>
         <content type="html"><![CDATA[<li>Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added "CMD+i", or right click context menu "Selection size". Will display size info for a selection on the Table View.</li>
 <li>Added "Help-&gt;User Guide" Menu item and PDF.</li>
@@ -623,7 +623,7 @@
         <title type="html"><![CDATA[Version 4.9.7  :  Thursday August 26, 2010 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.427Z</updated>
+        <updated>2021-12-15T17:44:39.170Z</updated>
         <content type="html"><![CDATA[<li>Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Addressed issue with 'removable' file:// volumes, ie: idevices mounted as drives.</li>
 <li>Addressed issue with 'fusefs' type volumes, ie: idevices mounted as drives.</li>
@@ -634,7 +634,7 @@
         <title type="html"><![CDATA[Version 4.9.6  :  Monday July 12, 2010 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.428Z</updated>
+        <updated>2021-12-15T17:44:39.171Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Addressed issue when manually entering license keys.</li>
 <li>Addressed issue when performing duplicate search on old slow machines and very large files.</li>]]></content>
@@ -643,7 +643,7 @@
         <title type="html"><![CDATA[Version 4.9.5  :  Tuesday May 11, 2010 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.428Z</updated>
+        <updated>2021-12-15T17:44:39.173Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Addressed issue with NSException backtracks in SnowLeopard and machines that do not have the atos utility installed. This was causing an application crash.</li>
 <li>Addressed issue related to NSDistantObject exceptions. These were being bubbled up to the user level and should have not.</li>]]></content>
@@ -652,7 +652,7 @@
         <title type="html"><![CDATA[Version 4.9.4  :  Tuesday May 11, 2010 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.430Z</updated>
+        <updated>2021-12-15T17:44:39.174Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Bug fixes, enhacements, to handle uncaught exceptions. Some of these issues were affecting users on SnowLeopard.
 </li>
@@ -662,7 +662,7 @@
         <title type="html"><![CDATA[Version 4.9.3  :  Wednesday March 24, 2010 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.430Z</updated>
+        <updated>2021-12-15T17:44:39.175Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Bug fixes, enhacements, to the Find Duplicate Files functionality.
 	</li>
@@ -685,7 +685,7 @@
         <title type="html"><![CDATA[Version 4.9.2  :  Tuesday April 13, 2010 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.431Z</updated>
+        <updated>2021-12-15T17:44:39.176Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Bug fixes, enhacements, to the Find Duplicate Files functionality.
 	</li>]]></content>
@@ -694,7 +694,7 @@
         <title type="html"><![CDATA[Version 4.9.1  :  Tuesday February 23, 2010 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.431Z</updated>
+        <updated>2021-12-15T17:44:39.177Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Bug fixes, enhancements, to the Find Duplicate Files functionality.
 	</li>
@@ -707,7 +707,7 @@
         <title type="html"><![CDATA[Version 4.9.0  :  Tuesday February 2, 2010 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.436Z</updated>
+        <updated>2021-12-15T17:44:39.178Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added Duplicate Files functionality. We consider two files to be duplicates if they have the same md5 hash value. Figuring out the md5 hashes can be a long and expensive operation, so we will build the hash values in the background and store them into a database for convenience. If the files are modified the md5 hashes will be recalculated. You'd be suprised at how many duplicate files are out there.
 	</li>
@@ -725,7 +725,7 @@
         <title type="html"><![CDATA[Version 4.8.3  :  Tuesday November 17, 2009 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.437Z</updated>
+        <updated>2021-12-15T17:44:39.179Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users. Recommended to all SnowLeopard Users.</li>
 <li>Major fixes in memory usage. For example while measuring a Volume with 350GB worth of data the app will consume 250MB less of memory. Minor speed improvements as well.
 	</li>
@@ -736,7 +736,7 @@
         <title type="html"><![CDATA[Version 4.8.2  :  Monday October 19, 2009 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.437Z</updated>
+        <updated>2021-12-15T17:44:39.179Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Minor bug fixes related to SnowLeopard.
 	</li>]]></content>
@@ -745,7 +745,7 @@
         <title type="html"><![CDATA[Version 4.8.1  :  Monday August 31, 2009 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.438Z</updated>
+        <updated>2021-12-15T17:44:39.180Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Minor bug fixes related to SnowLeopard.
 	</li>]]></content>
@@ -754,7 +754,7 @@
         <title type="html"><![CDATA[Version 4.8.0  :  Tuesday August 25, 2009 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.438Z</updated>
+        <updated>2021-12-15T17:44:39.181Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added 'Lipo Suction' module. Remove those extra architecture bytes. When Apple moved to universal binaries, the binaries got twice as big. You can lipo the binary files add keep only the native architecture bytes. For example if you are running on a PPC machine you could get rid of all the Intel binaries.
 	</li>]]></content>
@@ -763,7 +763,7 @@
         <title type="html"><![CDATA[Version 4.6.0  :  Tuesday May 12th, 2009 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.439Z</updated>
+        <updated>2021-12-15T17:44:39.181Z</updated>
         <content type="html"><![CDATA[<li>Updates. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added 'Last Modified' date column.
 	</li>
@@ -786,7 +786,7 @@
         <title type="html"><![CDATA[Version 4.5.2  :  Wednesday April 22nd, 2009 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.439Z</updated>
+        <updated>2021-12-15T17:44:39.182Z</updated>
         <content type="html"><![CDATA[<li>Updates. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Fixed crash when calling Delocalize without a node or folder selection
 	</li>
@@ -799,7 +799,7 @@
         <title type="html"><![CDATA[Version 4.5.1  :  Monday March 16th, 2009 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.440Z</updated>
+        <updated>2021-12-15T17:44:39.183Z</updated>
         <content type="html"><![CDATA[<li>Updates. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Fixed 'Copy Path' context menu to copy paths as string, we were copying as xml.
 	</li>
@@ -812,7 +812,7 @@
         <title type="html"><![CDATA[Version 4.4.2  :  Monday March 2nd, 2009 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.440Z</updated>
+        <updated>2021-12-15T17:44:39.185Z</updated>
         <content type="html"><![CDATA[<li>Updates. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added Delocalizer module. Remove those unwanted locales for languages you never knew existed.
 	</li>]]></content>
@@ -821,7 +821,7 @@
         <title type="html"><![CDATA[Version 4.4.1  :  Tuesday December 2nd, 2008 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.441Z</updated>
+        <updated>2021-12-15T17:44:39.186Z</updated>
         <content type="html"><![CDATA[<li>Updates. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added new database engine for speed and scalability to support large file systems with more than 4 million files and folders.
 	</li>
@@ -836,7 +836,7 @@
         <title type="html"><![CDATA[Version 4.3.1  :  Tuesday August 19th, 2008 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.442Z</updated>
+        <updated>2021-12-15T17:44:39.186Z</updated>
         <content type="html"><![CDATA[<li>Updates. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. We regret to drop support for OSX 10.3 users. This version will now work only on 10.4 and above.</li>
 <li>Properly updating the window title when reloading the TableView mode.
 	</li>
@@ -849,7 +849,7 @@
         <title type="html"><![CDATA[Version 4.3.0  :  Monday August 18th, 2008 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.442Z</updated>
+        <updated>2021-12-15T17:44:39.188Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Thanks to support from our customers we have spent a lot of time to make this simple app even more useful. This is a Free update.
 	</li>
@@ -878,7 +878,7 @@
         <title type="html"><![CDATA[Version 4.2.0  :  Wednesday February, 13th, 2008 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.443Z</updated>
+        <updated>2021-12-15T17:44:39.189Z</updated>
         <content type="html"><![CDATA[<li>Updates.</li>
 <li>Added PieChart view.
 	</li>]]></content>
@@ -887,7 +887,7 @@
         <title type="html"><![CDATA[Version 4.1.1  :  Thursday December, 27th, 2007 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.452Z</updated>
+        <updated>2021-12-15T17:44:39.190Z</updated>
         <content type="html"><![CDATA[<li>10.3.9 Compatibility.</li>
 <li>Overall speed improvements to the serialization engine.
 	</li>
@@ -900,7 +900,7 @@
         <title type="html"><![CDATA[Version 4.1.0  :  Thursday December, 6th, 2007 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.453Z</updated>
+        <updated>2021-12-15T17:44:39.193Z</updated>
         <content type="html"><![CDATA[<li>Added Persistence.
 	</li>
 <li>Measured side bar items will now persist into ~/Library/Caches/WhatSize/. When the user clicks on a previously measured side bar item we will load the cached info in one instant. The cache is updated each time the user elects to re-measure a side bar item.
@@ -910,7 +910,7 @@
         <title type="html"><![CDATA[Version 4.7.0  :  Monday June 22nd, 2009 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.454Z</updated>
+        <updated>2021-12-15T17:44:39.194Z</updated>
         <content type="html"><![CDATA[<li>Updates. Free to all users. DO NOT UPDATE IF YOU ARE USING MAC OSX 10.3. Recommended to all Users.</li>
 <li>Added 'Nib'o Suction' module. Remove those unwanted nib files, developers forgot to. These files are used for developing software and are not used by the installed software. They can safely be removed.
 	</li>
@@ -925,7 +925,7 @@
         <title type="html"><![CDATA[Version 4.0  :  Thursday November, 29th, 2007 (WhatSize Changelogs)]]></title>
         <id>https://florisvink.github.io/feeds/all.xml</id>
         <link href="https://florisvink.github.io/feeds/all.xml"/>
-        <updated>2021-12-15T05:35:10.454Z</updated>
+        <updated>2021-12-15T17:44:39.194Z</updated>
         <content type="html"><![CDATA[<li>Complete Overhaul.
 	</li>
 <li>Total redesign brings in a true client-server architecture. This means support for System Administrator so that even files owned by other users of the machine can be measured.

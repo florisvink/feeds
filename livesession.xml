@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://developers.livesession.io/getting-started/changelog/</id>
     <title>LiveSession Changelogs</title>
-    <updated>2021-12-18T05:34:44.002Z</updated>
+    <updated>2021-12-19T05:36:05.141Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://emails.livesession.io/logo_favicon.png</icon>
     <entry>
-        <title type="html"><![CDATA[v1.4.0 (.css-1vg6q84{font-weight:700;}2021.09.28)]]></title>
+        <title type="html"><![CDATA[v1.4.0 (2021.09.28)]]></title>
         <id>https://developers.livesession.io/getting-started/changelog/#v140-20210928</id>
         <link href="https://developers.livesession.io/getting-started/changelog/#v140-20210928"/>
         <updated>2021-11-04T19:56:50.283Z</updated>
-        <content type="html"><![CDATA[<style data-emotion-css="1r0pe6c">.css-1r0pe6c{color:inherit;-webkit-text-decoration:none;text-decoration:none;}.css-1r0pe6c:hover{-webkit-text-decoration:underline;text-decoration:underline;}</style><a href="#v140-20210928" class="css-1r0pe6c">v1.4.0 (<style data-emotion-css="1vg6q84">.css-1vg6q84{font-weight:700;}</style><strong class="css-1vg6q84">2021.09.28</strong>)</a>]]></content>
+        <content type="html"><![CDATA[<a href="#v140-20210928" class="css-1r0pe6c">v1.4.0 (<strong class="css-1vg6q84">2021.09.28</strong>)</a>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[v1.3.0 (2021.05.06)]]></title>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.fingerprintjs.com/changelog</id>
     <title>FingerprintJS Changelogs</title>
-    <updated>2021-12-30T17:44:17.263Z</updated>
+    <updated>2021-12-31T05:36:02.567Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://dev.fingerprintjs.com/favicon.ico</icon>
     <entry>
@@ -12,12 +12,12 @@
         <updated>2021-12-08T17:43:41.800Z</updated>
         <content type="html"><![CDATA[<ul>
 <li>Improve incognito mode detection accuracy in Safari</li>
-<li>Deprecate the <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">ipResolution</span></code> parameter because it affects nothing</li>
-<li>The <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">get()</span></code> result's <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">ipLocation</span></code> field is marked is optional in the TypeScript declaration. The field could be undefined in fact, so this is a fix of the type declaration.</li>
+<li>Deprecate the <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>ipResolution</code> parameter because it affects nothing</li>
+<li>The <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>get()</code> result's <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>ipLocation</code> field is marked is optional in the TypeScript declaration. The field could be undefined in fact, so this is a fix of the type declaration.</li>
 <li>Actualize <a target="_self" href="/docs/browser-support">the list of supported browsers</a></li>
-<li>A new <a target="_self" href="/docs/js-agent#error-handling">error code</a> for cases when the JS agent version is not supported: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">FingerprintJS.ERROR_UNSUPPORTED_VERSION</span></code></li>
+<li>A new <a target="_self" href="/docs/js-agent#error-handling">error code</a> for cases when the JS agent version is not supported: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>FingerprintJS.ERROR_UNSUPPORTED_VERSION</code></li>
 <li>Decrease the JS agent code size by removing legacy parts</li>
-<li>fix: An indefinite <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">setTimeout</span></code> loop in Firefox</li>
+<li>fix: An indefinite <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>setTimeout</code> loop in Firefox</li>
 </ul>]]></content>
     </entry>
     <entry>

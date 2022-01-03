@@ -2,9 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dev.fingerprintjs.com/changelog</id>
     <title>FingerprintJS Changelogs</title>
-    <updated>2022-01-03T05:35:57.251Z</updated>
+    <updated>2022-01-03T17:45:21.009Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <icon>https://dev.fingerprintjs.com/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v3.5.5]]></title>
+        <id>https://dev.fingerprintjs.com/changelog/3-5-5</id>
+        <link href="https://dev.fingerprintjs.com/changelog/3-5-5"/>
+        <updated>2022-01-03T17:45:09.421Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>A new region: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button>ap</code> (Mumbai, India)</li>
+</ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[v3.5.4]]></title>
         <id>https://dev.fingerprintjs.com/changelog/3-5-4</id>
@@ -101,18 +110,6 @@
 <li>TypeScript compatibility improvement</li>
 <li>Fix an error in Android 5.1 Browser: Failed to parse the response</li>
 <li>Fix client timeouts in iOS WeChat built-in browser</li>
-</ul>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[v3.3.0]]></title>
-        <id>https://dev.fingerprintjs.com/changelog/3-3-0</id>
-        <link href="https://dev.fingerprintjs.com/changelog/3-3-0"/>
-        <updated>2021-10-22T15:36:59.551Z</updated>
-        <content type="html"><![CDATA[<ul>
-<li>Many new identification methods under the hood</li>
-<li>JS agent retries visitor identification request in case of error</li>
-<li>A new billing model. Identifications are billed per a unique visitor instead of a request.</li>
-<li>New <a target="_self" href="/docs/js-agent#error-handling">expected JS agent errors</a>: <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">FingerprintJS.ERROR_WRONG_REGION</span></code>, <code class="rdmd-code lang- theme-light" data-lang="" name=""><button aria-label="Copy Code" class="rdmd-code-copy fa"></button><span class="cm-s-neo">FingerprintJS.ERROR_SUBSCRIPTION_NOT_ACTIVE</span></code></li>
 </ul>]]></content>
     </entry>
     <entry>
